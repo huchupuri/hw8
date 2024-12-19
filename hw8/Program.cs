@@ -79,6 +79,7 @@ namespace tumak
 
         static void Task4()
         {
+            Console.WriteLine("задание 4");
             List<Song> songs = new List<Song>
             {
                 new Song ( "я устал", "1.Klas$" ),
