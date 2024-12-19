@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace taskManager
 {
+    /// <summary>
+    /// статусы проекта
+    /// </summary>
     enum ProjectStatus { project, execution, closed}
 }

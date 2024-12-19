@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace taskManager
 {
-    enum TaskManager { assigned, proccesing, checking, complete }
+    /// <summary>
+    /// статус задачи
+    /// </summary>
+    enum TaskStatus { assigned, proccesing, checking, complete }
 }

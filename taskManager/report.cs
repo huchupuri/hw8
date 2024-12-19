@@ -15,7 +15,7 @@ namespace taskManager
         // Конструктор
         public Report(string text, Employee Executor)
         {
-            this.Text = Text;
+            this.Text = text;
             this.Executor = Executor;
             this.ExecutionDate = DateTime.Now;
         }
